@@ -1,5 +1,5 @@
 from observables.observer import Observer
-from producer import Producer
+from Producer.producer import Producer
 
 class Consumer(Observer):
     def update(self, message):
