@@ -2,6 +2,9 @@ from observables.observer import Observer
 from Producer.producer import Producer
 
 class Consumer(Observer):
+    def __init__(self):
+        super().__init__()
+
     def update(self, message):
         # Simulando processamento da mensagem
         print(f"Consumer processando a mensagem: {message}")
