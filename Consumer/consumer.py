@@ -1,5 +1,6 @@
 from observables.observer import Observer
 from Producer.producer import Producer
+
 class Consumer(Observer):
     def update(self, message):
         # Simulando processamento da mensagem
